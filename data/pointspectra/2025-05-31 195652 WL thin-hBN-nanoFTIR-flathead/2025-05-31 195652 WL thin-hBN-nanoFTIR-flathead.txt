@@ -1,0 +1,32 @@
+# www.neaspec.com
+# Scan:	 	Whitelight Imaging
+# Project:	 	2025.05.31. hBN stepscan stability
+# Description:	 	thin-hBN-nanoFTIR-flathead
+# Date:	 	05/31/2025 19:56:52
+# Scanner Center Position (X, Y):	[µm]	53.28	47.96	 
+# Rotation:	[°]	0	 	 
+# Scan Area (X, Y, Z):	[µm]	2.500	1.700	0.000
+# Pixel Area (X, Y, Z):	[px]	80	55	1
+# Interferometer:		 	 	 
+# Interferometer Center/Distance:	[µm]	651.100	0.000	 
+# Averaging:	 	1	 	 
+# Integration time:	[ms]	7	 	 
+# Wavenumber Scaling:	 	0.999295	 	 
+# Laser Source:	 	Synchrotron B	
+# Detector:	 	R
+# Target Wavelength:	[µm]		 	 
+# Demodulation Mode:	 	Fourier
+# Tip Frequency:	[Hz]	59,656.965	 	 
+# Tip Amplitude:	[mV]	147.000	 	 
+# Tapping Amplitude:	[nm]	81.926	 	 
+# Modulation Frequency:	[Hz]	0.000	 	 
+# Modulation Amplitude:	[mV]	0.000	 	 
+# Modulation Offset:	[mV]	0.000	 	 
+# Setpoint:	[%]	75.25	 	 
+# Regulator (P, I, D):	 	1.662965	1.974723	1.000000
+# Tip Potential:	[mV]	0.000	 	 
+# M1A Scaling:	[nm/V]	1.520	 	 
+# M1A Cantilever Factor:	 	1.372	 	 
+# Q-Factor:	 	220.6	 	 
+# Transmission Sync:	 		 	 
+# Version:	 	2.1.12235.0

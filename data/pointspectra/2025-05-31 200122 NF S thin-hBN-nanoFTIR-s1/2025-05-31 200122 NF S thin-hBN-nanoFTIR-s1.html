@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+        }
+        table {
+            font-family: Segoe UI;
+            font-size: 10px;
+        }
+        table#parameters-table tbody tr:nth-child(odd) {
+            background-color: #fafafa;
+        }
+        table#parameters-table tbody tr:nth-child(even) {
+            background-color: #efefef;
+        }
+        td {
+            vertical-align: top;
+        }
+        td.caption {
+            font-weight: bold;
+        }
+        td.text {
+            font-family: Segoe UI;
+            font-size: 10px;
+            text-align: left;
+            max-width: 500px;
+        }
+        td.number {
+            font-size: 10px;
+            font-family: Segoe UI;
+            text-align: right;
+        }
+        figure.preview {
+            display: inline-block; 
+        }
+        .ThermalAnalysis {
+        }
+        .Ters {
+        }
+        tr.ignore {
+            visibility: collapse;
+        }
+    </style>    
+    <meta charset="utf-8">
+    <title>thin-hBN-nanoFTIR-s1</title>
+</head>
+<body>
+<table id="parameters-table">
+    <tbody>
+        <!-- do not remove: fixes HtmlPanel confused by COLSPAN -->
+        <tr class="ignore" hidden>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>	
+        <tr>
+            <td class="caption">Scan:</td>
+            <td class="number">&nbsp;</td>
+            <td class="text" id="ScanMode" colspan="3">Fourier Scan</td>
+        </tr>
+        <tr>
+            <td class="caption">Project:</td>
+            <td class="number">&nbsp;</td>
+            <td class="text" id="Project.Name" colspan="3">2025.05.31. hBN stepscan stability</td>
+        </tr>
+        <tr>
+            <td class="caption">Description:</td>
+            <td class="number">&nbsp;</td>
+            <td class="text" id="Name" colspan="3">thin-hBN-nanoFTIR-s1</td>
+        </tr>
+        <tr>
+            <td class="caption">Date:</td>
+            <td class="number">&nbsp;</td>
+            <td class="text" id="Timestamp" colspan="3">05/31/2025 20:01:22</td>
+        </tr>
+        <tr id="ReferenceSpectrum">
+            <td class="caption">Reference:</td>
+            <td class="number">&nbsp;</td>
+            <td class="number" id="Reference" colspan="3">05/31/2025 20:00:09 thin-hBN-nanoFTIR-siref</td>
+        </tr>
+        <tr>
+            <td class="caption">Scanner Center Position (X, Y):</td>
+            <td class="number">[&micro;m]</td>
+            <td class="number" id="PhysicalOffsetX">52.44</td>
+            <td class="number" id="PhysicalOffsetY">47.60</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Rotation:</td>
+            <td class="number">[&deg;]</td>
+            <td class="number" id="Angle">0</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Scan Area (X, Y, Z):</td>
+            <td class="number">[&micro;m]</td>
+            <td class="number" id="PhysicalSizeX">0.000</td>
+            <td class="number" id="PhysicalSizeY">0.000</td>
+            <td class="number" id="PhysicalSizeZ">0.000</td>
+        </tr>
+        <tr>
+            <td class="caption">Pixel Area (X, Y, Z):</td>
+            <td class="number">[px]</td>
+            <td class="number" id="TargetResolutionWidth">1</td>
+            <td class="number" id="TargetResolutionHeight">1</td>
+            <td class="number" id="ResolutionDepth">600</td>
+        </tr>
+
+        <tr class="FourierRows">
+            <td class="caption">Interferometer:</td>
+            <td class="number" id="Metadata.FourierStage"></td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr class="FourierRows">
+            <td class="caption">Interferometer Center/Distance:</td>
+            <td class="number" id="FourierStageUnit">[&#181;m]</td>
+            <td class="number" id="FourierStageCenter">470.000</td>
+            <td class="number" id="FourierStageLength">490.000</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Averaging:</td>
+            <td class="number">&nbsp;</td>
+            <td class="number" id="DepthRuns">16</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Integration time:</td>
+            <td class="number">[ms]</td>
+            <td class="number" id="TargetMillisecondsPerPixel">7</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr class="FourierRows">
+            <td class="caption">Wavenumber Scaling:</td>
+            <td class="number">&nbsp;</td>
+            <td class="number" id="WavenumberScaling">0.999295</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr class="LaserRows">
+            <td class="caption">Laser Source:</td>
+            <td class="number">&nbsp;</td>
+            <td class="text" id="LaserSource.Name">Synchrotron B</td>
+            <td class="text" id="LaserSource.Properties" colspan="2"></td>
+        </tr>
+        <tr id="Detector">
+            <td class="caption">Detector:</td>
+            <td class="number">&nbsp;</td>
+            <td class="text" id="Metadata.Detector" colspan="3">R</td>
+        </tr>
+        <tr>
+            <td class="caption">Target Wavelength:</td>
+            <td class="number" id="LaserSourcePreferredWaveUnit">[&#181;m]</td>
+            <td class="number" id="LaserSourceTargetWavelength"></td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        
+        
+        
+        
+        <tr>
+            <td class="caption">Demodulation Mode:</td>
+            <td class="number">&nbsp;</td>
+            <td class="text" id="Metadata.DemodulationMode" colspan="3">Fourier</td>
+        </tr>
+        <tr>
+            <td class="caption">Tip Frequency:</td>
+            <td class="number">[Hz]</td>
+            <td class="number" id="Metadata.HeadFrequency">59,656.965</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Tip Amplitude:</td>
+            <td class="number">[mV]</td>
+            <td class="number" id="Metadata.HeadAmplitude">147.000</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        
+        
+        
+        <tr>
+            <td class="caption">Tapping Amplitude:</td>
+            <td class="number">[nm]</td>
+            <td class="number" id="Metadata.TappingAmplitude">82.020</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Modulation Frequency:</td>
+            <td class="number">[Hz]</td>
+            <td class="number" id="Metadata.MirrorFrequency">0.000</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Modulation Amplitude:</td>
+            <td class="number">[mV]</td>
+            <td class="number" id="Metadata.MirrorAmplitude">0.000</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Modulation Offset:</td>
+            <td class="number">[mV]</td>
+            <td class="number" id="Metadata.MirrorOffset">0.000</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Setpoint:</td>
+            <td class="number">[%]</td>
+            <td class="number" id="Metadata.RelativeRegulatorSetpointZ">75.25</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">Regulator (P, I, D):</td>
+            <td class="number">&nbsp;</td>
+            <td class="number" id="Metadata.RegulatorTuningP">1.662965</td>
+            <td class="number" id="Metadata.RegulatorTuningI">1.974723</td>
+            <td class="number" id="Metadata.RegulatorTuningD">1.000000</td>
+        </tr>
+        <tr>
+            <td class="caption">Tip Potential:</td>
+            <td class="number">[mV]</td>
+            <td class="number" id="Metadata.TipPotential">0.000</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">M1A Scaling:</td>
+            <td class="number">[nm/V]</td>
+            <td class="number" id="Metadata.NanometersPerVoltM1A">1.520</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="caption">M1A Cantilever Factor:</td>
+            <td class="number">&nbsp;</td>
+            <td class="number" id="Metadata.M1ACantileverFactor">1.372</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+        
+        
+        
+        
+        
+        
+        
+        
+        <tr id="Metadata.QFactorRow">
+            <td class="caption">Q-Factor:</td>
+            <td class="number">&nbsp;</td>
+            <td class="number" id="Metadata.QFactor">220.6</td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+
+        
+
+        
+
+        <tr id="Metadata.BottomIlluminationSynchronizationRow">
+            <td class="caption">Transmission Sync:</td>
+            <td class="number">&nbsp;</td>
+            <td class="number" id="Metadata.IsBottomIlluminationSynchronizationEnabled"></td>
+            <td class="number">&nbsp;</td>
+            <td class="number">&nbsp;</td>
+        </tr>
+
+        <tr>
+            <td class="caption">Version:</td>
+            <td class="number">&nbsp;</td>
+            <td class="number" id="Version" colspan="3">2.1.12235.0</td>
+        </tr>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </tbody>
+</table>
+<div id="images">
+<figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20Z%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20Z%20raw.png" alt="Z"></a><figcaption>Z</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O0A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O0A%20raw.png" alt="O0A"></a><figcaption>O0A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O0P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O0P%20raw.png" alt="O0P"></a><figcaption>O0P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O1A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O1A%20raw.png" alt="O1A"></a><figcaption>O1A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O1P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O1P%20raw.png" alt="O1P"></a><figcaption>O1P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O2A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O2A%20raw.png" alt="O2A"></a><figcaption>O2A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O2P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O2P%20raw.png" alt="O2P"></a><figcaption>O2P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O3A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O3A%20raw.png" alt="O3A"></a><figcaption>O3A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O3P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O3P%20raw.png" alt="O3P"></a><figcaption>O3P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O4A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O4A%20raw.png" alt="O4A"></a><figcaption>O4A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O4P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O4P%20raw.png" alt="O4P"></a><figcaption>O4P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O5A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O5A%20raw.png" alt="O5A"></a><figcaption>O5A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O5P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20O5P%20raw.png" alt="O5P"></a><figcaption>O5P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M0A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M0A%20raw.png" alt="M0A"></a><figcaption>M0A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M0P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M0P%20raw.png" alt="M0P"></a><figcaption>M0P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M1A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M1A%20raw.png" alt="M1A"></a><figcaption>M1A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M1P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M1P%20raw.png" alt="M1P"></a><figcaption>M1P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M2A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M2A%20raw.png" alt="M2A"></a><figcaption>M2A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M2P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M2P%20raw.png" alt="M2P"></a><figcaption>M2P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M3A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M3A%20raw.png" alt="M3A"></a><figcaption>M3A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M3P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M3P%20raw.png" alt="M3P"></a><figcaption>M3P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M4A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M4A%20raw.png" alt="M4A"></a><figcaption>M4A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M4P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M4P%20raw.png" alt="M4P"></a><figcaption>M4P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M5A%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M5A%20raw.png" alt="M5A"></a><figcaption>M5A</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M5P%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M5P%20raw.png" alt="M5P"></a><figcaption>M5P</figcaption></figure><figure class="preview"><a href="2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M%20raw.gsf"><img src="Images/2025-05-31%20200122%20NF%20S%20thin-hBN-nanoFTIR-s1%20M%20raw.png" alt="M"></a><figcaption>M</figcaption></figure></div>
+</body>
+</html>
