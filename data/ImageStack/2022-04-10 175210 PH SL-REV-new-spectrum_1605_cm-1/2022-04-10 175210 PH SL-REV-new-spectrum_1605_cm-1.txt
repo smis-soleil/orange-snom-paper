@@ -1,0 +1,27 @@
+# www.neaspec.com
+# Scan:	 	2D (PsHet)
+# Project:	 	MihalyJudith_EVs
+# Description:	 	SL-REV-new-spectrum_1605_cm-1
+# Date:	 	04/10/2022 17:52:10
+# Scanner Center Position (X, Y):	[µm]	57.63	54.30	 
+# Rotation:	[°]	0	 	 
+# Scan Area (X, Y, Z):	[µm]	7.500	2.925	0.000
+# Pixel Area (X, Y, Z):	[px]	300	117	1
+# Averaging:	 	1	 	 
+# Integration time:	[ms]	7	 	 
+# Laser Source:	 	
+# Detector:	 	MIR
+# Target Wavelength:	[µm]	6.231	 	 
+# Demodulation Mode:	 	PsHet
+# Tip Frequency:	[Hz]	265,933.003	 	 
+# Tip Amplitude:	[mV]	145.600	 	 
+# Tapping Amplitude:	[nm]	85.689	 	 
+# Modulation Frequency:	[Hz]	304.969	 	 
+# Modulation Amplitude:	[mV]	48,796.262	 	 
+# Modulation Offset:	[mV]	-7,872.849	 	 
+# Setpoint:	[%]	80.00	 	 
+# Regulator (P, I, D):	 	4.761094	8.620474	1.000000
+# Tip Potential:	[mV]	0.000	 	 
+# M1A Scaling:	[nm/V]	7.502	 	 
+# Q-Factor:	 	669.1	 	 
+# Version:	 	1.10.8956.0
