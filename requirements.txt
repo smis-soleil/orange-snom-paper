@@ -1,0 +1,4 @@
+Orange3>=3.38.1
+Orange-SNOM>=0.0.6
+Orange-Spectroscopy>=0.8.3
+PyQt5
