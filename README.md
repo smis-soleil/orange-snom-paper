@@ -12,6 +12,9 @@ To be able to run all the script, you need the packages installed described in `
 
     conda myenv create -f environment.yml
 
+### Standalone app
+
+`browser.py` represent a GUI application created from Quasar widgets. Using the codebase of Quasar and Orange one can build a standalone UI consisting of Quasar widgets. The presented application allows to browse files with a treeview browser and the data is passed to the widgets for further processing and visualization.
 
 ### Cite us:
 
