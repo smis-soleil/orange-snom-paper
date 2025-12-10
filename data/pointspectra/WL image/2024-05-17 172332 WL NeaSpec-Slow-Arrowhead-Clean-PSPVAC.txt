@@ -1,0 +1,30 @@
+# www.neaspec.com
+# Scan:	 	Whitelight Imaging
+# Project:	 	nanoFTIR-QualityControl
+# Description:	 	NeaSpec-Slow-Arrowhead-Clean-PSPVAC
+# Date:	 	05/17/2024 17:23:32
+# Scanner Center Position (X, Y):	[µm]	50.00	50.00	 
+# Rotation:	[°]	0	 	 
+# Scan Area (X, Y, Z):	[µm]	5.000	5.000	0.000
+# Pixel Area (X, Y, Z):	[px]	250	250	1
+# Interferometer Center/Distance:	[µm]	628.800	0.000	 
+# Averaging:	 	1	 	 
+# Integration time:	[ms]	7	 	 
+# Wavenumber Scaling:	 	1.003656	 	 
+# Laser Source:	 	Synchrotron B
+# Detector:	 	R
+# Target Wavelength:	[µm]		 	 
+# Demodulation Mode:	 	Fourier
+# Tip Frequency:	[Hz]	68,263.500	 	 
+# Tip Amplitude:	[mV]	277.800	 	 
+# Tapping Amplitude:	[nm]	77.815	 	 
+# Modulation Frequency:	[Hz]	0.000	 	 
+# Modulation Amplitude:	[mV]	0.000	 	 
+# Modulation Offset:	[mV]	0.000	 	 
+# Setpoint:	[%]	80.49	 	 
+# Regulator (P, I, D):	 	3.672227	6.589351	1.000000
+# Tip Potential:	[mV]	0.000	 	 
+# M1A Scaling:	[nm/V]	1.520	 	 
+# M1A Cantilever Factor:	 	2.355	 	 
+# Q-Factor:	 	221.1	 	 
+# Version:	 	2.1.11508.0
