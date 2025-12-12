@@ -1,4 +1,4 @@
-# orange-snom paper data and workflows
+# orange-snom paper data, workflows and examples
 
 Here we provide the data and corresponding [pySNOM](https://github.com/Quasars/pySNOM) scripts for each example in the first paper describing the [orange-snom](https://github.com/Quasars/orange-snom) add-on to [Quasar](https://quasar.codes/).
 
