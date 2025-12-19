@@ -3099,12 +3099,12 @@ D2N1cnZlcGxvdF9hZnRlcpR9lChoH4loIIloIV2UaCNLAGgkTmgliWgmSwBoJ4l1jAtfX3ZlcnNp
 b25fX5RLCXUu
 </properties>
 		<properties node_id="4" format="literal">{'autocommit': True, 'controlAreaVisible': True, 'preview_curves': 25, 'preview_n': None, 'process_reference': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x01\xc1\x00\x00\x00\xc6\x00\x00\x04@\x00\x00\x02\xa5\x00\x00\x01\xc1\x00\x00\x00\xc6\x00\x00\x04@\x00\x00\x02\xa5\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x01\xc1\x00\x00\x00\xc6\x00\x00\x04@\x00\x00\x02\xa5', 'storedsettings': {'name': '', 'preprocessors': [('orangecontrib.infrared.baseline', {})]}, 'curveplot': {'color_individual': False, 'invertX': False, 'peak_labels_saved': [], 'sample_seed': 0, 'selection_group_saved': None, 'show_grid': False, 'viewtype': 0, 'waterfall': False}, 'curveplot_after': {'color_individual': False, 'invertX': False, 'peak_labels_saved': [], 'sample_seed': 0, 'selection_group_saved': None, 'show_grid': False, 'viewtype': 0, 'waterfall': False}, '__version__': 9}</properties>
-		<properties node_id="5" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x1a\x00\x00\x01H\x00\x00\x05\xe8\x00\x00\x02$\x00\x00\x00\x1a\x00\x00\x01H\x00\x00\x05\xe8\x00\x00\x02$\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\x00\x00\x00\x1a\x00\x00\x01H\x00\x00\x05\xe8\x00\x00\x02$', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
+		<properties node_id="5" format="literal">{'auto_commit': True, 'color_by_class': True, 'controlAreaVisible': False, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\xff\xff\xff\xfa\x00\x00\x01J\x00\x00\x05\x93\x00\x00\x02&amp;\xff\xff\xff\xfa\x00\x00\x01J\x00\x00\x05\x93\x00\x00\x02&amp;\x00\x00\x00\x00\x00\x00\x00\x00\x06\x00\xff\xff\xff\xfa\x00\x00\x01J\x00\x00\x05\x93\x00\x00\x02&amp;', 'select_rows': True, 'show_attribute_labels': True, 'show_distributions': False, 'stored_selection': {'rows': [], 'columns': []}, 'stored_sort': [], '__version__': 1}</properties>
 		<properties node_id="6" format="pickle">gASVVAUAAAAAAAB9lCiMBUFfdGlwlEc+atfymryvSIwFTF90aXCURz6XfPRHZRlfjAphdXRvY29t
-bWl0lImMA2NfcpRHP9MzMzMzMzOMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjApmZG1fbWV0aG9klIwF
+bWl0lIiMA2NfcpRHP9MzMzMzMzOMEmNvbnRyb2xBcmVhVmlzaWJsZZSIjApmZG1fbWV0aG9klIwF
 UV9hdmWUjAVuX2ZkbZRLAowMcGhhc2Vfb2Zmc2V0lIiMDnByZXZpZXdfY3VydmVzlEsDjAlwcmV2
 aWV3X26UXZSMEXByb2Nlc3NfcmVmZXJlbmNllIiMBXJfdGlwlEc+YBsrKaRpK4wTc2F2ZWRXaWRn
-ZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACEwAAAAAAAAX/AAADLwAAAhQAAAAeAAAF/gAAAy4AAAAA
+ZXRHZW9tZXRyeZRDQgHZ0MsAAwAAAAACFAAAAB4AAAX+AAADLgAAAhQAAAAeAAAF/gAAAy4AAAAA
 AAAAAAYAAAACFAAAAB4AAAX+AAADLpSMDnN0b3JlZHNldHRpbmdzlH2UKIwEbmFtZZSMAJSMDXBy
 ZXByb2Nlc3NvcnOUXZQojDFvcmFuZ2Vjb250cmliLnNwZWN0cm9zY29weS53aWRnZXRzLm93c25v
 bXB5LmNvbnN0lH2UjAFjlH2UKIwFdmFsdWWURz/wAAAAAAAAjAR2YXJ5lIwFZml4ZWSUdXOGlIwu
