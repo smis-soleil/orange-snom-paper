@@ -10,12 +10,24 @@ The Jupyter notebooks contain useful tips and descriptions to undertand and repr
 
 To be able to run all the script, you need the packages installed described in `requirements.txt`. We suggest to create your environment using:
 
-    conda myenv create -f environment.yml
+```shell
+conda myenv create -f environment.yml
+conda activate myenv
+```
 
 ### Standalone app
 
 `browser.py` represent a GUI application created from Quasar widgets. Using the codebase of Quasar and Orange one can build a standalone UI consisting of Quasar widgets. The presented application allows to browse files with a treeview browser and the data is passed to the widgets for further processing and visualization.
+
+
+The application can be started by
+
+```shell
+python .\browser.py
+```
+
 ![standalone](/standalone.png)
+
 
 ### Cite us:
 
