@@ -31,4 +31,10 @@ python .\browser.py
 
 ### Cite us:
 
-TODO: add citation here - first arXiv, then published paper.
+**Robust and Democratic s-SNOM Data Analysis and Modeling in Quasar**<br>
+Gergely Németh, Marko Toplak, Stuart Read, Raul de Oliveira Freitas, and Ferenc Borondics<br>
+*ACS Omega*
+DOI: [10.1021/acsomega.6c02534](https://pubs.acs.org/doi/10.1021/acsomega.6c02534)
+
+pySNOM package: <br>
+https://doi.org/10.5281/zenodo.18034757
